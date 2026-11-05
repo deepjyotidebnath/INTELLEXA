@@ -1,780 +1,547 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intellexa.ai — AI-Powered Software Services</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intellexa.online — AI Chatbots, WhatsApp Automation & Business Software for Indian SMBs</title>
+  <meta name="description" content="Intellexa builds AI chatbots, WhatsApp automation, e-commerce stores, dashboards and industry websites for Indian businesses. Plans from ₹99/month with a 7-day free trial.">
+  <meta name="theme-color" content="#0b1020">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://intellexa.online/">
+  <meta property="og:title" content="Intellexa.online — AI-Powered Software Services">
+  <meta property="og:description" content="AI chatbots, WhatsApp automation, e-commerce and dashboards for Indian businesses. 7-day free trial.">
+  <link rel="canonical" href="https://intellexa.online/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236366f1'/%3E%3Cstop offset='1' stop-color='%2306b6d4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Cpath d='M11 9h4v14h-4zM17 9h4l-2 6 2 8h-4z' fill='white'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js')</script>
 </head>
-
 <body>
 
-    <!-- NAV -->
-    <nav>
-        <a href="#" class="logo">intellexa<span>.online</span></a>
+  <!-- ANNOUNCEMENT -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <p><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg> <strong>Limited offer:</strong> 7-day free trial on all plans — no credit card required.</p>
+      <div class="topbar-contact">
+        <a href="tel:+919134800714"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +91 9134800714</a>
+        <a href="mailto:intellexaai1@gmail.com"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg> intellexaai1@gmail.com</a>
+      </div>
+    </div>
+  </div>
 
-        <ul class="nav-links">
-            <li><a href="#services">Services</a></li>
-            <li><a href="#free-offer">Free Trial</a></li>
-            <li><a href="#why">Why Us</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#contact" class="nav-cta">Get Started</a></li>
-        </ul>
-        <div class="hamburger">
-            <span></span><span></span><span></span>
-        </div>
-    </nav>
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo" aria-label="Intellexa home">
+        <span class="logo-mark">I</span><span class="logo-text">intellexa<span>.online</span></span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#process">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Clients</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">Free consultation</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
 
+  <main id="top">
     <!-- HERO -->
     <section class="hero">
-        <div class="orb orb-1"></div>
-        <div class="orb orb-2"></div>
-        <div class="orb orb-3"></div>
-        <div class="hero-inner">
-            <div class="hero-badge"><span class="badge-dot"></span> AI-Powered Software Services</div>
-            <h1>Grow Your Business<span class="gradient-text">With Intelligent Tech</span></h1>
-            <p class="hero-sub">We build AI chatbots, e-commerce tools, WhatsApp automation & analytics dashboards — so you can focus on running your business while technology handles the rest.</p>
-            <div class="hero-btns">
-                <a href="#services" class="btn-primary">🚀 Explore Services</a>
-                <a href="#contact" class="btn-secondary">💬 Talk to Us</a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <div class="stat-num">20+</div>
-                    <div class="stat-label">AI-powered services</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-num">24/7</div>
-                    <div class="stat-label">Automation support</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-num">₹99~</div>
-                    <div class="stat-label">Starting per month</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-num">7 Days</div>
-                    <div class="stat-label">Free trial included</div>
-                </div>
-            </div>
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow-pill"><span class="dot"></span> AI-powered software services for Indian businesses</span>
+          <h1>Automate your business.<br><span class="grad">Grow without limits.</span></h1>
+          <p class="lead">We build AI chatbots, WhatsApp automation, online stores and analytics dashboards — so you can focus on running your business while technology handles the rest.</p>
+          <div class="hero-ctas">
+            <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20want%20to%20start%20my%20FREE%207-day%20trial" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Start 7-day free trial <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            <a href="#services" class="btn btn-light btn-lg">Explore services</a>
+          </div>
+          <ul class="hero-checks">
+            <li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> No credit card</li>
+            <li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Live in 7–14 days</li>
+            <li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Hindi & English support</li>
+          </ul>
         </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="mock">
+            <div class="mock-head"><span></span><span></span><span></span><em>dashboard.intellexa.online</em></div>
+            <div class="mock-body">
+              <div class="mock-kpis">
+                <div><small>Revenue (7d)</small><strong>₹1,24,500</strong><em class="up">+18.2%</em></div>
+                <div><small>Orders</small><strong>342</strong><em class="up">+9.4%</em></div>
+                <div><small>Bot replies</small><strong>2,180</strong><em class="up">24/7</em></div>
+              </div>
+              <div class="mock-chart">
+                <i style="--h:38%"></i><i style="--h:52%"></i><i style="--h:45%"></i><i style="--h:63%"></i><i style="--h:58%"></i><i style="--h:76%"></i><i style="--h:70%"></i><i style="--h:88%"></i><i style="--h:82%"></i><i style="--h:95%"></i>
+              </div>
+            </div>
+          </div>
+          <div class="float-card chat">
+            <div class="fc-head"><span class="wa-dot"><svg class="ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg></span><strong>WhatsApp Bot</strong><small>online</small></div>
+            <p class="bubble in">Hi! Is the blue kurta available in M?</p>
+            <p class="bubble out">Yes! 4 left in stock. Shall I place the order for ₹899?</p>
+          </div>
+          <div class="float-card order">
+            <span class="fc-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+            <div><strong>New order #1042</strong><small>Paid via UPI · ₹899</small></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="stats">
+          <div class="stat"><strong>18+</strong><span>Ready-to-launch solutions</span></div>
+          <div class="stat"><strong>24/7</strong><span>Automated customer support</span></div>
+          <div class="stat"><strong>₹99</strong><span>Plans starting per month</span></div>
+          <div class="stat"><strong>7 days</strong><span>Free trial, no obligation</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTEGRATIONS -->
+    <section class="integrations">
+      <div class="container">
+        <p>Built around the platforms your customers already use</p>
+        <div class="integ-list"><span>WhatsApp</span><span>UPI</span><span>Instagram</span><span>Facebook</span><span>Google Business</span><span>Excel / CSV</span></div>
+      </div>
     </section>
 
     <!-- SERVICES -->
     <section class="section" id="services">
-        <div class="section-header">
-            <div class="section-label">What We Build</div>
-            <h2 class="section-title">20+ Services That Scale<br>Your Business</h2>
-            <p class="section-sub">From AI chatbots to complete SaaS platforms — everything a modern business needs to thrive in the digital age.</p>
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Our services</span>
+          <h2>Everything your business needs to go digital</h2>
+          <p>From AI chatbots to complete SaaS platforms — pick a ready-made solution, try the live demo, and we'll tailor it to your business.</p>
         </div>
-        <div class="services-grid reveal">
-
-            <div class="service-card">
-                <span class="hot-badge">🔥 Hot</span>
-                <div class="service-header">
-                    <div class="service-icon">🧠</div>
-                </div>
-                <div class="service-name">AI Customer Support Bot</div>
-                <div class="service-desc">Intelligent auto-replies on WhatsApp & your website. Handles FAQs, resolves queries, and works 24/7 without breaks or burnout.</div>
-                <ul class="service-features">
-                    <li>Natural language understanding in Hindi & English</li>
-                    <li>Seamless handoff to human agents when needed</li>
-                    <li>Custom training on your business FAQs</li>
-                    <li>Real-time analytics & conversation logs</li>
-                    <li>Multi-platform integration (Web, WhatsApp, FB)</li>
-                </ul>
-                <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20AI%20Customer Support%20Bot.%20Please%20share%20more%20details." target="_blank" class="service-price-btn">
-   ₹99-199/month
-</a>
-                <a href="https://gleaming-custard-ba39b6.netlify.app/" class="demo-btn" target="_blank">
-   🚀 Live Demo
-</a>
+        <div class="tabs" role="tablist" aria-label="Filter services"><button class="tab active" type="button" data-filter="all">All services <span class="count">18</span></button><button class="tab" type="button" data-filter="ai">AI &amp; Automation <span class="count">4</span></button><button class="tab" type="button" data-filter="commerce">E-commerce &amp; Operations <span class="count">5</span></button><button class="tab" type="button" data-filter="industry">Industry Solutions <span class="count">8</span></button><button class="tab" type="button" data-filter="web">Website &amp; Hosting <span class="count">1</span></button></div>
+        <div class="svc-grid" id="svcGrid">
+        <article class="svc reveal" data-cat="ai">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8V4H8"/><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M2 14h2M20 14h2M15 13v2M9 13v2"/></svg></div><span class="badge">Popular</span></div>
+          <h3>AI Customer Support Bot</h3>
+          <p class="svc-desc">Intelligent auto-replies on WhatsApp &amp; your website. Handles FAQs, resolves queries, and works 24/7 without breaks or burnout.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Natural language understanding in Hindi &amp; English</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Seamless handoff to human agents when needed</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Custom training on your business FAQs</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Real-time analytics &amp; conversation logs</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Multi-platform integration (Web, WhatsApp, FB)</span></li></ul><button class="more-btn" type="button" data-more="1">+ 1 more feature</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹99–199<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://gleaming-custard-ba39b6.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20AI%20Customer%20Support%20Bot.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
             </div>
-
-            <div class="service-card">
-                <div class="service-header">
-                    <div class="service-icon">🛒</div>
-                </div>
-                <div class="service-name">Mini E-commerce Builder</div>
-                <div class="service-desc">Complete online store with product listings, shopping cart, WhatsApp ordering, and UPI QR payments — your store online in days.</div>
-                <ul class="service-features">
-                    <li>Beautiful mobile-responsive product catalog</li>
-                    <li>Add-to-cart & checkout via WhatsApp</li>
-                    <li>UPI QR code & payment gateway integration</li>
-                    <li>Inventory sync with automatic stock updates</li>
-                    <li>SEO-optimized pages for Google visibility</li>
-                </ul>
-                <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20mini%20E-commerce%20Builder.%20Please%20share%20more%20details." target="_blank" class="service-price-btn">
-   ₹499/month
-</a>
-                <a href="https://wondrous-mooncake-85fd2b.netlify.app/" class="demo-btn" target="_blank">
-        View Demo
-    </a>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="ai">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></svg></div><span class="badge">High demand</span></div>
+          <h3>WhatsApp Automation</h3>
+          <p class="svc-desc">Auto-replies, order confirmations, broadcast messages, and abandoned cart reminders — all on the platform your customers love.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Instant auto-reply for new messages</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Order confirmation &amp; shipping updates</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Bulk broadcast to customer lists</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Abandoned cart recovery messages</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Birthday &amp; anniversary wishes automation</span></li></ul><button class="more-btn" type="button" data-more="1">+ 1 more feature</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹299<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://quiet-brioche-9a3b29.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20WhatsApp%20Automation.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
             </div>
-
-            <div class="service-card">
-                <div class="service-header">
-                    <div class="service-icon">📦</div>
-                </div>
-                <div class="service-name">Order Management Dashboard</div>
-                <div class="service-desc">Track every order from placement to delivery. View customer details, update status, and export reports to Excel with one click.</div>
-                <ul class="service-features">
-                    <li>Real-time order status tracking</li>
-                    <li>Customer history & repeat buyer insights</li>
-                    <li>Automated status update notifications</li>
-                    <li>Excel/CSV export for accounting</li>
-                    <li>Multi-staff access with role permissions</li>
-                </ul>
-                <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Order%20Management%20Dashboard.%20Please%20share%20more%20details." target="_blank" class="service-price-btn">
-   ₹299/month
-</a>
-                <a href="https://gilded-cuchufli-5d7545.netlify.app/" class="demo-btn" target="_blank">
-   🚀 Live Demo
-</a>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="ai">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.94 15.5A2 2 0 0 0 8.5 14.06l-6.14-1.58a.5.5 0 0 1 0-.96L8.5 9.94A2 2 0 0 0 9.94 8.5l1.58-6.14a.5.5 0 0 1 .96 0l1.58 6.14a2 2 0 0 0 1.44 1.44l6.14 1.58a.5.5 0 0 1 0 .96l-6.14 1.58a2 2 0 0 0-1.44 1.44l-1.58 6.14a.5.5 0 0 1-.96 0z"/><path d="M20 3v4M22 5h-4"/></svg></div><span class="badge">Popular</span></div>
+          <h3>AI Content Generator</h3>
+          <p class="svc-desc">Instagram captions, product descriptions, ad copy, and blog posts — generated by AI, tailored to your brand voice.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Social media captions in seconds</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Product descriptions that convert</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Ad copy for Facebook &amp; Google ads</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Email marketing content generation</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Brand voice training &amp; consistency</span></li></ul><button class="more-btn" type="button" data-more="1">+ 1 more feature</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹199<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://loquacious-cheesecake-122151.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20AI%20Content%20Generator.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
             </div>
-
-            <div class="service-card">
-                <span class="hot-badge">💰 High Demand</span>
-                <div class="service-header">
-                    <div class="service-icon">📲</div>
-                </div>
-                <div class="service-name">WhatsApp Automation</div>
-                <div class="service-desc">Auto-replies, order confirmations, broadcast messages, and abandoned cart reminders — all on the platform your customers love.</div>
-                <ul class="service-features">
-                    <li>Instant auto-reply for new messages</li>
-                    <li>Order confirmation & shipping updates</li>
-                    <li>Bulk broadcast to customer lists</li>
-                    <li>Abandoned cart recovery messages</li>
-                    <li>Birthday & anniversary wishes automation</li>
-                </ul>
-                <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Whatsapp%20Automation.%20Please%20share%20more%20details." target="_blank" class="service-price-btn">
-   ₹299/month
-</a>
-                <a href="https://quiet-brioche-9a3b29.netlify.app/" class="demo-btn" target="_blank">
-   🚀 Live Demo
-</a>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="ai">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div></div>
+          <h3>AI Product Recommendations</h3>
+          <p class="svc-desc">Suggest relevant products based on browsing history and enable smart cross-selling to increase your average order value.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>&quot;Customers also bought&quot; suggestions</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Personalized product recommendations</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Upsell &amp; cross-sell automation</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Frequently bought together bundles</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>A/B testing for recommendation strategies</span></li></ul><button class="more-btn" type="button" data-more="1">+ 1 more feature</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹299<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://whimsical-chebakia-aff78b.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20AI%20Product%20Recommendations.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
             </div>
-
-            <div class="service-card">
-                <div class="service-header">
-                    <div class="service-icon">📊</div>
-                </div>
-                <div class="service-name">Sales Analytics Dashboard</div>
-                <div class="service-desc">Daily sales charts, top-performing products, customer trends, and revenue forecasts — make data-driven decisions with ease.</div>
-                <ul class="service-features">
-                    <li>Visual daily/weekly/monthly sales graphs</li>
-                    <li>Top products & category performance</li>
-                    <li>Customer acquisition & retention metrics</li>
-                    <li>Revenue forecasting with AI predictions</li>
-                    <li>Customizable reports & PDF exports</li>
-                </ul>
-                <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Sales%20Analytics%20Dashboard.%20Please%20share%20more%20details." target="_blank" class="service-price-btn">
-   ₹199/month
-</a>
-                <a href="https://rococo-madeleine-911667.netlify.app/" class="demo-btn" target="_blank">
-   🚀 Live Demo
-</a>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="commerce">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg></div></div>
+          <h3>Mini E-commerce Builder</h3>
+          <p class="svc-desc">Complete online store with product listings, shopping cart, WhatsApp ordering, and UPI QR payments — your store online in days.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Beautiful mobile-responsive product catalog</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Add-to-cart &amp; checkout via WhatsApp</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>UPI QR code &amp; payment gateway integration</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Inventory sync with automatic stock updates</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>SEO-optimized pages for Google visibility</span></li></ul><button class="more-btn" type="button" data-more="1">+ 1 more feature</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹499<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://wondrous-mooncake-85fd2b.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Mini%20E-commerce%20Builder.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
             </div>
-
-            <div class="service-card">
-                <span class="hot-badge">🔥 Hot</span>
-                <div class="service-header">
-                    <div class="service-icon">🎨</div>
-                </div>
-                <div class="service-name">AI Content Generator</div>
-                <div class="service-desc">Instagram captions, product descriptions, ad copy, and blog posts — generated by AI, tailored to your brand voice.</div>
-                <ul class="service-features">
-                    <li>Social media captions in seconds</li>
-                    <li>Product descriptions that convert</li>
-                    <li>Ad copy for Facebook & Google ads</li>
-                    <li>Email marketing content generation</li>
-                    <li>Brand voice training & consistency</li>
-                </ul>
-                <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20AI%20Content%20Generator.%20Please%20share%20more%20details." target="_blank" class="service-price-btn">
-   ₹199/month
-</a> <a href="https://loquacious-cheesecake-122151.netlify.app/" class="demo-btn" target="_blank">
-        View Demo
-    </a>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="commerce">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg></div></div>
+          <h3>Order Management Dashboard</h3>
+          <p class="svc-desc">Track every order from placement to delivery. View customer details, update status, and export reports to Excel with one click.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Real-time order status tracking</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Customer history &amp; repeat buyer insights</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Automated status update notifications</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Excel/CSV export for accounting</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Multi-staff access with role permissions</span></li></ul><button class="more-btn" type="button" data-more="1">+ 1 more feature</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹299<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://gilded-cuchufli-5d7545.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Order%20Management%20Dashboard.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
             </div>
-
-            <div class="service-card">
-                <span class="hot-badge">🔥 Hot</span>
-                <div class="service-header">
-                    <div class="service-icon">🩺</div>
-                </div>
-                <div class="service-name">Online appointment booking 24/7</div>
-                <div class="service-desc">Let patients book online and never miss a visit with automatic WhatsApp reminders.</div>
-                <ul class="service-features">
-                    <li>Online appointment booking 24/7</li>
-                    <li>Clinic website with doctor profiles</li>
-                    <li>WhatsApp reminders for appointments</li>
-
-                    <li>Patient visit records</li>
-                </ul>
-
-
-                <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Online%20apponitment%20booking 24/7.%20Please%20share%20more%20details." target="_blank" class="service-price-btn">
-   ₹199/month
-</a>
-                <a href="https://adorable-dasik-b47b6b.netlify.app/" class="demo-btn" target="_blank">
-        View Demo
-    </a>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="commerce">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-3"/></svg></div></div>
+          <h3>Sales Analytics Dashboard</h3>
+          <p class="svc-desc">Daily sales charts, top-performing products, customer trends, and revenue forecasts — make data-driven decisions with ease.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Visual daily/weekly/monthly sales graphs</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Top products &amp; category performance</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Customer acquisition &amp; retention metrics</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Revenue forecasting with AI predictions</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Customizable reports &amp; PDF exports</span></li></ul><button class="more-btn" type="button" data-more="1">+ 1 more feature</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹199<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://rococo-madeleine-911667.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Sales%20Analytics%20Dashboard.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
             </div>
-            <div class="service-card">
-                <span class="hot-badge">🔥 Hot</span>
-                <div class="service-header">
-                    <div class="service-icon">🍽️</div>
-                </div>
-                <div class="service-name">Digitise Restaurant</div>
-                <div class="service-desc">Contactless QR menus, a beautiful website and easy table reservations.</div>
-                <ul class="service-features">
-                    <li>QR code digital menu</li>
-                    <li>Table reservation system</li>
-                    <li>Restaurant website with photos & location</li>
-
-                    <li>WhatsApp order enquiries</li>
-                </ul>
-                <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20run%20a%20Restaurants%20business%20and%20want%20to%20know%20more" target="_blank" class="service-price-btn">
-   ₹199/month
-</a> <a href="https://gorgeous-fox-69d888.netlify.app/" class="demo-btn" target="_blank">
-        View Demo
-    </a>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="commerce">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5M12 22V12"/></svg></div></div>
+          <h3>Inventory Management</h3>
+          <p class="svc-desc">Track stock levels in real-time, get low-stock alerts, and auto-update inventory across all your sales channels.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Real-time stock level tracking</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Low-stock &amp; out-of-stock alerts</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Multi-location inventory support</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Barcode/SKU management</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Supplier &amp; purchase order tracking</span></li></ul><button class="more-btn" type="button" data-more="1">+ 1 more feature</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹299<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://beautiful-tarsier-215dfe.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Inventory%20Management.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
             </div>
+          </div>
+        </article>
+        <article class="svc reveal featured" data-cat="commerce">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65M22 12.65l-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></svg></div><span class="badge">Best value</span></div>
+          <h3>All-in-One SaaS Platform</h3>
+          <p class="svc-desc">Website builder + AI chatbot + WhatsApp automation + analytics dashboard + inventory — one platform, one subscription, unlimited growth.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Everything from all services combined</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Single dashboard for all operations</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Priority support &amp; dedicated manager</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Custom integrations on request</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Unlimited team members &amp; access</span></li></ul><button class="more-btn" type="button" data-more="1">+ 1 more feature</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹499<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://thriving-cactus-4197b7.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20All-in-One%20SaaS%20Platform.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
+            </div>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="industry">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6 6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6 6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></div><span class="badge">Popular</span></div>
+          <h3>Clinic &amp; Doctor Package</h3>
+          <p class="svc-desc">Let patients book appointments online 24/7 and never miss a visit with automatic WhatsApp reminders.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Online appointment booking 24/7</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Clinic website with doctor profiles</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>WhatsApp reminders for appointments</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Patient visit records</span></li></ul>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹199<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://adorable-dasik-b47b6b.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Clinic%20&amp;%20Doctor%20Package%20(online%20appointment%20booking).%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
+            </div>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="industry">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2M7 2v20M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg></div><span class="badge">Popular</span></div>
+          <h3>Restaurant Digital Package</h3>
+          <p class="svc-desc">Contactless QR menus, a beautiful website and easy table reservations for your restaurant or café.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>QR code digital menu</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Table reservation system</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Restaurant website with photos &amp; location</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>WhatsApp order enquiries</span></li></ul>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹199<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://gorgeous-fox-69d888.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Restaurant%20Digital%20Package.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
+            </div>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="industry">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="3"/><path d="M8.12 8.12 12 12M20 4 8.12 15.88"/><circle cx="6" cy="18" r="3"/><path d="M14.8 14.8 20 20"/></svg></div><span class="badge">Popular</span></div>
+          <h3>Beauty &amp; Salon Package</h3>
+          <p class="svc-desc">Grow your salon, beauty parlour, spa, or self-care business with online bookings, automated reminders, and a professional online presence.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Online appointment booking</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Service catalog with pricing</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>WhatsApp booking confirmations &amp; reminders</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Customer reviews &amp; testimonials</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Beauty packages &amp; promotional offers</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Birthday, anniversary &amp; loyalty messages</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Staff &amp; schedule management</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Gallery for showcasing your work</span></li></ul><button class="more-btn" type="button" data-more="4">+ 4 more features</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹199<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://magnificent-pasca-f96aa5.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Beauty%20&amp;%20Salon%20Package.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
+            </div>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="industry">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.4 14.4 9.6 9.6M18.66 21.51a2 2 0 1 1-2.83-2.83l-1.77 1.77a2 2 0 1 1-2.83-2.83l6.37-6.37a2 2 0 1 1 2.83 2.83l-1.77 1.77a2 2 0 1 1 2.83 2.83zM21.5 21.5l-1.4-1.4M3.9 3.9 2.5 2.5M6.4 12.77a2 2 0 1 1-2.83-2.83l1.77-1.77a2 2 0 1 1-2.83-2.83l2.83-2.83a2 2 0 1 1 2.83 2.83l1.77-1.77a2 2 0 1 1 2.83 2.83z"/></svg></div></div>
+          <h3>Gym &amp; Fitness Package</h3>
+          <p class="svc-desc">Complete digital solution for gyms, fitness centers, yoga studios, and personal trainers. Manage memberships, bookings, and grow online.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Professional gym website</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Membership &amp; renewal management</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Online registration &amp; inquiries</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Trainer profiles &amp; fitness plans</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>WhatsApp reminders &amp; promotions</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Mobile-friendly modern design</span></li></ul><button class="more-btn" type="button" data-more="2">+ 2 more features</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹299–499<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://dynamic-beijinho-a1b9a2.netlify.app/html/index.html" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Gym%20&amp;%20Fitness%20Package.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
+            </div>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="industry">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.42 10.92a1 1 0 0 0-.02-1.84L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.83l8.57 3.91a2 2 0 0 0 1.66 0z"/><path d="M22 10v6M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></div></div>
+          <h3>Coaching Institute Package</h3>
+          <p class="svc-desc">Attract more students and simplify admissions with a professional website, online inquiry system, and course showcase.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Professional coaching website</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Course &amp; batch information pages</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Online admission &amp; inquiry forms</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Faculty &amp; success stories showcase</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Class schedules &amp; announcements</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>WhatsApp integration for student support</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Study material &amp; notice section</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Mobile-friendly modern design</span></li></ul><button class="more-btn" type="button" data-more="4">+ 4 more features</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹299–499<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://silver-wisp-4b5155.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Coaching%20Institute%20Package.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
+            </div>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="industry">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg></div></div>
+          <h3>Fashion &amp; Garment Store</h3>
+          <p class="svc-desc">Grow your clothing business with a professional online presence, product catalog, and easy customer engagement through WhatsApp.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Professional fashion store website</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Product catalog with size &amp; color options</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Inventory &amp; stock management</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>WhatsApp catalog sharing</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Seasonal offers &amp; promotional campaigns</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Mobile-friendly modern design</span></li></ul><button class="more-btn" type="button" data-more="2">+ 2 more features</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹199<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://exquisite-crostata-6a3362.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Fashion%20&amp;%20Garment%20Store%20Package.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
+            </div>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="industry">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg></div></div>
+          <h3>Influencer &amp; Creator Package</h3>
+          <p class="svc-desc">Build your personal brand with a professional website, media kit, portfolio, and tools that help brands connect with you easily.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Personal brand website</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Portfolio &amp; content showcase</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Professional media kit page</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Brand collaboration inquiry form</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Social media profile integration</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>WhatsApp &amp; email contact options</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Mobile-friendly modern design</span></li></ul><button class="more-btn" type="button" data-more="3">+ 3 more features</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹199<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://prismatic-sunburst-271455.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Influencer%20&amp;%20Creator%20Package.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
+            </div>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="industry">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></div></div>
+          <h3>NGO &amp; Trust Package</h3>
+          <p class="svc-desc">Establish credibility, attract donors, and showcase your impact with a professional website designed for NGOs, charities, and trusts.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Professional NGO/Trust website</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>About Us, Mission &amp; Vision pages</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Donation &amp; fundraising information</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Projects, events &amp; impact showcase</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Volunteer registration forms</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Photo gallery &amp; success stories</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>WhatsApp &amp; contact integration</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Mobile-friendly modern design</span></li></ul><button class="more-btn" type="button" data-more="4">+ 4 more features</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹199<small>/month</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://aquamarine-stardust-5ea1a6.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20NGO%20&amp;%20Trust%20Package.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
+            </div>
+          </div>
+        </article>
+        <article class="svc reveal" data-cat="web">
+          <div class="svc-top"><div class="svc-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/></svg></div></div>
+          <h3>Website + Hosting Package</h3>
+          <p class="svc-desc">Domain registration, reliable hosting, professional website design, and ongoing maintenance — everything bundled in one package.</p>
+          <ul class="svc-feats"><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Custom domain (.com, .in, .co.in)</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Fast &amp; secure cloud hosting</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Mobile-responsive modern design</span></li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>SSL certificate for security</span></li><li class="more" hidden><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Monthly maintenance &amp; updates included</span></li></ul><button class="more-btn" type="button" data-more="1">+ 1 more feature</button>
+          <div class="svc-foot">
+            <div class="svc-price"><span>Starting at</span><strong>₹3,000–8,000<small>/year</small></strong></div>
+            <div class="svc-actions">
+              <a class="btn btn-ghost btn-sm" href="https://thriving-cactus-4197b7.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+              <a class="btn btn-primary btn-sm" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20your%20Website%20%2B%20Hosting%20Package.%20Please%20share%20more%20details." target="_blank" rel="noopener">Enquire</a>
+            </div>
+          </div>
+        </article>
         </div>
-        <div class="service-card">
-            <span class="hot-badge">🔥 Hot</span>
-            <div class="service-header">
-                <div class="service-icon">📱</div>
-            </div>
-            <div class="service-name">Influencer & Creator Package</div>
-            <div class="service-desc">Build your personal brand with a professional website, media kit, portfolio, and tools that help brands connect with you easily.</div>
-            <ul class="service-features">
-                <li>Personal brand website</li>
-                <li>Portfolio & content showcase</li>
-                <li>Professional media kit page</li>
-                <li>Brand collaboration inquiry form</li>
-                <li>Social media profile integration</li>
-                <li>WhatsApp & email contact options</li>
-                <li>Mobile-friendly modern design</li>
-            </ul>
-            <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20the%20Influencer%20%26%20Creator%20Package." target="_blank" class="service-price-btn">
-   ₹199/month
-</a> <a href="https://prismatic-sunburst-271455.netlify.app/" class="demo-btn" target="_blank">
-        View Demo
-    </a>
-        </div>
-        </div>
-        <div class="service-card">
-            <span class="hot-badge">🔥 Hot</span>
-            <div class="service-header">
-                <div class="service-icon">👗</div>
-            </div>
-            <div class="service-name">Fashion & Garment Store Package</div>
-            <div class="service-desc">Grow your clothing business with a professional online presence, product catalog, and easy customer engagement through WhatsApp.</div>
-            <ul class="service-features">
-                <li>Professional fashion store website</li>
-                <li>Product catalog with size & color options</li>
-                <li>Inventory & stock management</li>
-                <li>WhatsApp catalog sharing</li>
-                <li>Seasonal offers & promotional campaigns</li>
-                <li>Mobile-friendly modern design</li>
-            </ul>
-            <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20the%20Fashion%20%26%20Garment%20Store%20Package." target="_blank" class="service-price-btn">
-   ₹199/month
-</a> <a href="https://exquisite-crostata-6a3362.netlify.app/" class="demo-btn" target="_blank">
-        View Demo
-    </a>
-        </div>
-
-
-        <div class="service-card">
-            <span class="hot-badge">🔥 Hot</span>
-            <div class="service-header">
-                <div class="service-icon">💄</div>
-            </div>
-            <div class="service-name">Beauty & Self-Care</div>
-            <div class="service-desc">Grow your salon, beauty parlour, spa, or self-care business with online bookings, automated reminders, and a professional online presence.</div>
-            <ul class="service-features">
-                <li>Online appointment booking</li>
-                <li>Service catalog with pricing</li>
-                <li>WhatsApp booking confirmations & reminders</li>
-                <li>Customer reviews & testimonials</li>
-                <li>Beauty packages & promotional offers</li>
-                <li>Birthday, anniversary & loyalty messages</li>
-                <li>Staff & schedule management</li>
-                <li>Gallery for showcasing your work</li>
-            </ul>
-            <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20run%20a%20Salons%20business%20and%20want%20to%20know%20more" target="_blank" class="service-price-btn">
-   ₹199/month
-</a>
-            <a href="https://magnificent-pasca-f96aa5.netlify.app/" class="demo-btn" target="_blank">
-        View Demo
-    </a>
-        </div>
-
-        <div class="service-card">
-            <span class="hot-badge">🔥 Hot</span>
-            <div class="service-header">
-                <div class="service-icon">🤝</div>
-            </div>
-            <div class="service-name">NGOs & Trusts</div>
-            <div class="service-desc">Establish credibility, attract donors, and showcase your impact with a professional website designed for NGOs, charities, and trusts.</div>
-            <ul class="service-features">
-                <li>Professional NGO/Trust website</li>
-                <li>About Us, Mission & Vision pages</li>
-                <li>Donation & fundraising information</li>
-                <li>Projects, events & impact showcase</li>
-                <li>Volunteer registration forms</li>
-                <li>Photo gallery & success stories</li>
-                <li>WhatsApp & contact integration</li>
-                <li>Mobile-friendly modern design</li>
-            </ul>
-            <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20the%20NGO%20%26%20Trust%20Package." target="_blank" class="service-price-btn">
-   ₹199/month
-</a> <a href="https://aquamarine-stardust-5ea1a6.netlify.app/" class="demo-btn" target="_blank">
-        View Demo
-    </a>
-        </div>
-
-        <div class="service-card">
-            <div class="service-header">
-                <div class="service-icon">🌐</div>
-            </div>
-            <div class="service-name">Website + Hosting Package</div>
-            <div class="service-desc">Domain registration, reliable hosting, professional website design, and ongoing maintenance — everything bundled in one package.</div>
-            <ul class="service-features">
-                <li>Custom domain (.com, .in, .co.in)</li>
-                <li>Fast & secure cloud hosting</li>
-                <li>Mobile-responsive modern design</li>
-                <li>SSL certificate for security</li>
-                <li>Monthly maintenance & updates included</li>
-            </ul>
-            <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20the%20Website+Hosting%20Package." target="_blank" class="service-price-btn">
-   3000-8000/year
-</a>
-            <a href="https://thriving-cactus-4197b7.netlify.app/" class="demo-btn" target="_blank">
-        View Demo
-    </a>
-        </div>
-
-        <div class="service-card">
-            <div class="service-header">
-                <div class="service-icon">🎓</div>
-            </div>
-            <div class="service-name">Coaching Institute Package</div>
-            <div class="service-desc">Attract more students and simplify admissions with a professional website, online inquiry system, and course showcase.</div>
-            <ul class="service-features">
-                <li>Professional coaching website</li>
-                <li>Course & batch information pages</li>
-                <li>Online admission & inquiry forms</li>
-                <li>Faculty & success stories showcase</li>
-                <li>Class schedules & announcements</li>
-                <li>WhatsApp integration for student support</li>
-                <li>Study material & notice section</li>
-                <li>Mobile-friendly modern design</li>
-            </ul>
-            <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20the%20Coaching%20Institute%20Package" target="_blank" class="service-price-btn">
-   ₹299 - ₹499/month
-</a>
-            <a href="https://silver-wisp-4b5155.netlify.app/" class="demo-btn" target="_blank">
-        View Demo
-    </a>
-        </div>
-        <div class="service-card">
-            <div class="service-header">
-                <div class="service-icon">🏋️</div>
-            </div>
-
-            <div class="service-name">Gym & Fitness Package</div>
-
-            <div class="service-desc">
-                Complete digital solution for gyms, fitness centers, yoga studios, and personal trainers. Manage memberships, bookings, and grow your fitness business online.
-            </div>
-
-            <ul class="service-features">
-                <li>Professional gym website</li>
-                <li>Membership & renewal management</li>
-                <li>Online registration & inquiries</li>
-                <li>Trainer profiles & fitness plans</li>
-                <li>WhatsApp reminders & promotions</li>
-                <li>Mobile-friendly modern design</li>
-            </ul>
-
-            <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20the%20Gym%20%26%20Fitness%20Package." target="_blank" class="service-price-btn">
-       ₹299 - ₹499/month
-    </a>
-            <a href="https://dynamic-beijinho-a1b9a2.netlify.app/html/index.html" class="demo-btn" target="_blank">
-        View Demo
-    </a>
-        </div>
-
-        <div class="service-card">
-            <div class="service-header">
-                <div class="service-icon">📦</div>
-            </div>
-            <div class="service-name">Inventory Management</div>
-            <div class="service-desc">Track stock levels in real-time, get low-stock alerts, and auto-update inventory across all your sales channels.</div>
-            <ul class="service-features">
-                <li>Real-time stock level tracking</li>
-                <li>Low-stock & out-of-stock alerts</li>
-                <li>Multi-location inventory support</li>
-                <li>Barcode/SKU management</li>
-                <li>Supplier & purchase order tracking</li>
-            </ul>
-            <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20the%20Inventory20management." target="_blank" class="service-price-btn">
-   ₹299/month
-</a>
-            <a href="https://beautiful-tarsier-215dfe.netlify.app/" class="demo-btn" target="_blank">
-        View Demo
-    </a>
-
-        </div>
-
-        <div class="service-card">
-            <div class="service-header">
-                <div class="service-icon">🎯</div>
-            </div>
-            <div class="service-name">AI Product Recommendations</div>
-            <div class="service-desc">Suggest relevant products based on browsing history and enable smart cross-selling to increase your average order value.</div>
-            <ul class="service-features">
-                <li>"Customers also bought" suggestions</li>
-                <li>Personalized product recommendations</li>
-                <li>Upsell & cross-sell automation</li>
-                <li>Frequently bought together bundles</li>
-                <li>A/B testing for recommendation strategies</li>
-            </ul>
-            <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20the%20AI%20Product%20Recommendations." target="_blank" class="service-price-btn">
-   ₹299/month
-</a>
-            <a href="https://whimsical-chebakia-aff78b.netlify.app/" class="demo-btn" target="_blank">
-        View Demo
-    </a>
-        </div>
-
-        <div class="service-card" style="background: linear-gradient(135deg, rgba(255,107,107,0.1), rgba(255,165,2,0.08));">
-            <span class="hot-badge" style="background:rgba(255,107,107,0.15);border-color:rgba(255,107,107,0.3);color:var(--accent);">🏆 Best Value</span>
-            <div class="service-header">
-                <div class="service-icon">🔥</div>
-            </div>
-            <div class="service-name">All-in-One SaaS Platform</div>
-            <div class="service-desc">Website builder + AI chatbot + WhatsApp automation + analytics dashboard + inventory — one platform, one subscription, unlimited growth.</div>
-            <ul class="service-features">
-                <li>Everything from all services combined</li>
-                <li>Single dashboard for all operations</li>
-                <li>Priority support & dedicated manager</li>
-                <li>Custom integrations on request</li>
-                <li>Unlimited team members & access</li>
-            </ul>
-            <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20the%20All-in-One%20SaaS%20Platform." target="_blank" class="service-price-btn">
-   ₹499/month
-</a>
-            <a href="https://thriving-cactus-4197b7.netlify.app/" class="demo-btn" target="_blank">
-        View Demo
-    </a>
-        </div>
-
-        </div>
+        <div class="svc-more" id="svcMoreWrap" hidden><button class="btn btn-outline" id="svcMore" type="button">View all 18 services</button></div>
+        <p class="svc-note reveal">Don't see what you need? <a href="#contact">Tell us about your project</a> — we build custom solutions too.</p>
+      </div>
     </section>
 
-    <!-- FREE OFFER - PAGE 2 (SCROLL TO REVEAL) -->
-    <section class="free-offer-page" id="free-offer">
-        <div class="free-offer-bg"></div>
-        <div class="free-offer-container reveal">
-            <div class="free-offer-card">
-                <div class="free-badge">🎁 Limited Time • Totally Free</div>
-                <h2 class="free-title">FREE<br><span class="highlight">Trial for 7 Days</span></h2>
-                <p class="free-subtitle">No credit card required. No hidden charges. No obligations. Just pure value for your business — experience the full power of our AI tools before you commit.</p>
-
-                <div class="free-features">
-                    <div class="free-feature">
-                        <div class="free-feature-icon">🤖</div>
-                        <div class="free-feature-text">
-                            <h4>AI Chatbot Access</h4>
-                            <p>Full AI customer support bot configured for your business</p>
-                        </div>
-                    </div>
-                    <div class="free-feature">
-                        <div class="free-feature-icon">📲</div>
-                        <div class="free-feature-text">
-                            <h4>WhatsApp Automation</h4>
-                            <p>Auto-replies & notifications set up and running</p>
-                        </div>
-                    </div>
-                    <div class="free-feature">
-                        <div class="free-feature-icon">👨‍💼</div>
-                        <div class="free-feature-text">
-                            <h4>Dedicated Setup Support</h4>
-                            <p>Personal account manager for complete onboarding</p>
-                        </div>
-                    </div>
-                    <div class="free-feature">
-                        <div class="free-feature-icon">⚡</div>
-                        <div class="free-feature-text">
-                            <h4>Priority Response</h4>
-                            <p>2-hour response time during your trial period</p>
-                        </div>
-                    </div>
-                    <div class="free-feature">
-                        <div class="free-feature-icon">🔧</div>
-                        <div class="free-feature-text">
-                            <h4>Custom Configuration</h4>
-                            <p>Tailored to match your specific business workflow</p>
-                        </div>
-                    </div>
-                    <div class="free-feature">
-                        <div class="free-feature-icon">📊</div>
-                        <div class="free-feature-text">
-                            <h4>Analytics Dashboard</h4>
-                            <p>Track performance & insights from day one</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="free-cta-box">
-                    <div class="free-price-display">
-                        <div class="original">Usually ₹999/month</div>
-                        <div class="current">₹0</div>
-                        <div class="duration">for full 7 days — no catches</div>
-                    </div>
-                    <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20want%20to%20start%20my%20FREE%207-day%20trial" class="free-cta-btn" target="_blank">
-  🚀 Start Free Trial Now
-</a>
-                </div>
-
-                <div class="countdown-text">
-                    ⏰ Offer valid for first-time users only — Start today and grow your business tomorrow!
-                </div>
-            </div>
+    <!-- FREE TRIAL BANNER -->
+    <section class="trial" id="free-offer">
+      <div class="container">
+        <div class="trial-card reveal">
+          <div class="trial-copy">
+            <span class="eyebrow light"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg> Limited time · Totally free</span>
+            <h2>Try everything free for 7 days</h2>
+            <p>No credit card. No hidden charges. We configure an AI chatbot, WhatsApp automation and an analytics dashboard for your business — with a dedicated setup expert and 2-hour priority response.</p>
+            <ul class="trial-list">
+              <li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> AI chatbot trained on your FAQs</li>
+              <li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> WhatsApp auto-replies & notifications</li>
+              <li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Personal onboarding manager</li>
+              <li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Analytics from day one</li>
+            </ul>
+          </div>
+          <div class="trial-price">
+            <span class="was">Usually ₹999/month</span>
+            <strong>₹0</strong>
+            <span class="for">for the full 7 days</span>
+            <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20want%20to%20start%20my%20FREE%207-day%20trial" class="btn btn-white btn-lg btn-block" target="_blank" rel="noopener">Start free trial <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            <small>For first-time customers only</small>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- WHY US -->
     <section class="section" id="why">
-        <div class="section-header centered">
-            <div class="section-label">Why Intellexa.online</div>
-            <h2 class="section-title">Built for Indian Businesses</h2>
-            <p class="section-sub">We understand the tools and platforms your customers already use — and we build solutions around them.</p>
+      <div class="container why-grid">
+        <div class="why-intro reveal">
+          <span class="eyebrow">Why Intellexa</span>
+          <h2>A technology partner built for Indian businesses</h2>
+          <p>We understand the tools and platforms your customers already use — WhatsApp, UPI, Instagram — and we build practical solutions around them, priced for small and medium businesses.</p>
+          <a href="#contact" class="btn btn-primary">Book a free consultation <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
         </div>
-        <div class="why-grid reveal">
-            <div class="why-card">
-                <div class="why-icon">⚡</div>
-                <div class="why-title">Fast Delivery</div>
-                <div class="why-desc">Most projects go live within 7–14 days. We move fast without cutting corners on quality.</div>
-            </div>
-            <div class="why-card">
-                <div class="why-icon">🇮🇳</div>
-                <div class="why-title">Made for India</div>
-                <div class="why-desc">WhatsApp-first, UPI-ready, Hindi/regional language support. Built for how Indians do business.</div>
-            </div>
-            <div class="why-card">
-                <div class="why-icon">🤖</div>
-                <div class="why-title">Real AI, Not Hype</div>
-                <div class="why-desc">We use production-grade AI that actually delivers results — not marketing fluff with no substance.</div>
-            </div>
-            <div class="why-card">
-                <div class="why-icon">📞</div>
-                <div class="why-title">Ongoing Support</div>
-                <div class="why-desc">We don't disappear after launch. Maintenance, updates, and support are included in every plan.</div>
-            </div>
-            <div class="why-card">
-                <div class="why-icon">💸</div>
-                <div class="why-title">Affordable Pricing</div>
-                <div class="why-desc">Enterprise-quality tools at prices that make sense for small and medium businesses.</div>
-            </div>
-            <div class="why-card">
-                <div class="why-icon">🔒</div>
-                <div class="why-title">Secure & Reliable</div>
-                <div class="why-desc">Your data and your customers' data is handled with industry-standard security practices.</div>
-            </div>
-        </div>
+        <div class="why-list"><div class="why-item reveal"><div class="why-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg></div><div><h3>Fast delivery</h3><p>Most projects go live within 7–14 days. We move fast without cutting corners on quality.</p></div></div><div class="why-item reveal"><div class="why-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"/></svg></div><div><h3>Made for India</h3><p>WhatsApp-first, UPI-ready, Hindi/regional language support. Built for how Indians do business.</p></div></div><div class="why-item reveal"><div class="why-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></svg></div><div><h3>Real AI, not hype</h3><p>Production-grade AI that actually delivers results — not marketing fluff with no substance.</p></div></div><div class="why-item reveal"><div class="why-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z"/><path d="M21 16v2a4 4 0 0 1-4 4h-5"/></svg></div><div><h3>Ongoing support</h3><p>We don't disappear after launch. Maintenance, updates, and support are included in every plan.</p></div></div><div class="why-item reveal"><div class="why-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/></svg></div><div><h3>Affordable pricing</h3><p>Enterprise-quality tools at prices that make sense for small and medium businesses.</p></div></div><div class="why-item reveal"><div class="why-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></div><div><h3>Secure & reliable</h3><p>Your data and your customers' data is handled with industry-standard security practices.</p></div></div></div>
+      </div>
     </section>
 
     <!-- PROCESS -->
-    <section class="section" style="padding-top:0">
-        <div class="section-header centered reveal">
-            <div class="section-label">How It Works</div>
-            <h2 class="section-title">Live in 4 Simple Steps</h2>
+    <section class="section alt" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">How it works</span>
+          <h2>Live in 4 simple steps</h2>
+          <p>A clear, collaborative process — from first conversation to launch and beyond.</p>
         </div>
-        <div class="process-steps reveal">
-            <div class="step">
-                <div class="step-num">01</div>
-                <div class="step-title">Tell Us Your Needs</div>
-                <div class="step-desc">Quick call or WhatsApp chat to understand your business and goals.</div>
-            </div>
-            <div class="step">
-                <div class="step-num">02</div>
-                <div class="step-title">We Plan & Propose</div>
-                <div class="step-desc">Custom plan with timeline, features, and transparent pricing.</div>
-            </div>
-            <div class="step">
-                <div class="step-num">03</div>
-                <div class="step-title">Build & Test</div>
-                <div class="step-desc">We build, you review. Revisions included until you're happy.</div>
-            </div>
-            <div class="step">
-                <div class="step-num">04</div>
-                <div class="step-title">Launch & Support</div>
-                <div class="step-desc">Go live with 15-day free support included.</div>
-            </div>
-        </div>
+        <ol class="steps"><li class="step reveal"><span class="step-n">01</span><h3>Tell us your needs</h3><p>Quick call or WhatsApp chat to understand your business and goals.</p></li><li class="step reveal"><span class="step-n">02</span><h3>We plan & propose</h3><p>A custom plan with timeline, features, and transparent pricing.</p></li><li class="step reveal"><span class="step-n">03</span><h3>Build & test</h3><p>We build, you review. Revisions included until you're happy.</p></li><li class="step reveal"><span class="step-n">04</span><h3>Launch & support</h3><p>Go live with 15 days of free hands-on support included.</p></li></ol>
+      </div>
     </section>
 
     <!-- PRICING -->
     <section class="section" id="pricing">
-        <div class="section-header centered">
-            <div class="section-label">Pricing</div>
-            <h2 class="section-title">Simple, Transparent Plans</h2>
-            <p class="section-sub">No hidden charges. Pick what fits your needs and upgrade whenever you're ready.</p>
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Pricing</span>
+          <h2>Simple, transparent plans</h2>
+          <p>No setup fees, no contracts. Every plan starts with a 7-day free trial — upgrade whenever you're ready.</p>
         </div>
-        <div class="pricing-grid reveal">
-
-
-            <div class="pricing-card">
-                <div class="plan-name">Starter</div>
-                <div class="plan-price"><sup>₹</sup>299</div>
-                <div class="plan-period">per month</div>
-                <ul class="plan-features">
-                    <li><span class="check">✓</span> AI Customer Support Bot</li>
-                    <li><span class="check">✓</span> WhatsApp Auto-reply</li>
-                    <li><span class="check">✓</span> Basic FAQ automation</li>
-                    <li><span class="check">✓</span> Email support</li>
-                    <li><span class="check">✓</span> 7-day free trial</li>
-                </ul>
-                <button class="plan-btn" onclick="window.open('https://wa.me/919134800714?text=Hi%20Intellexa%21%20I%20want%20the%20free%20plan%20and%20want%20to%20know%20more.','_blank')">
-    Get started on WhatsApp
-</button>
-            </div>
-            <div class="pricing-card featured">
-                <div class="featured-badge">Most Popular</div>
-                <div class="plan-name">Growth</div>
-                <div class="plan-price"><sup>₹</sup>499</div>
-                <div class="plan-period">per month</div>
-                <ul class="plan-features">
-                    <li><span class="check">✓</span> Everything in Starter</li>
-                    <li><span class="check">✓</span> WhatsApp Automation + Broadcasts</li>
-                    <li><span class="check">✓</span> Order Management Dashboard</li>
-                    <li><span class="check">✓</span> Sales Analytics</li>
-                    <li><span class="check">✓</span> AI Content Generator</li>
-                    <li><span class="check">✓</span> Priority support</li>
-                </ul>
-                <button class="plan-btn" onclick="window.open('https://wa.me/919134800714?text=Hi%20Intellexa%21%20I%20want%20the%20299rs%20plan%20and%20want%20to%20know%20more.','_blank')">
-    Get started on WhatsApp
-</button>
-            </div>
-
-            <div class="pricing-card">
-                <div class="plan-name">All-in-One</div>
-                <div class="plan-price"><sup>₹</sup>999</div>
-                <div class="plan-period">per month</div>
-                <ul class="plan-features">
-                    <li><span class="check">✓</span> Everything in Growth</li>
-                    <li><span class="check">✓</span> E-commerce Website Builder</li>
-                    <li><span class="check">✓</span> Inventory Management</li>
-                    <li><span class="check">✓</span> AI Product Recommendations</li>
-                    <li><span class="check">✓</span> Dedicated account manager</li>
-                    <li><span class="check">✓</span> Custom integrations</li>
-                </ul>
-                <button class="plan-btn" onclick="window.open('https://wa.me/919134800714?text=Hi%20Intellexa%21%20I%20want%20the%20499rs%20plan%20and%20want%20to%20know%20more.','_blank')">
-    Get started on WhatsApp
-</button>
-
-            </div>
+        <div class="plans"><div class="plan reveal">
+          <h3>Starter</h3><p class="plan-sub">For small businesses taking their first step into automation.</p>
+          <div class="plan-price"><span class="cur">₹</span>299<span class="per">/month</span></div>
+          <a class="btn btn-outline btn-block" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20the%20Starter%20plan%20(%E2%82%B9299%2Fmonth)%20and%20want%20to%20know%20more." target="_blank" rel="noopener">Get started</a>
+          <ul><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>AI Customer Support Bot</li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>WhatsApp auto-reply</li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Basic FAQ automation</li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Email support</li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>7-day free trial</li></ul></div><div class="plan reveal hot"><span class="plan-tag">Most popular</span>
+          <h3>Growth</h3><p class="plan-sub">For growing businesses that want to automate sales and support.</p>
+          <div class="plan-price"><span class="cur">₹</span>499<span class="per">/month</span></div>
+          <a class="btn btn-primary btn-block" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20the%20Growth%20plan%20(%E2%82%B9499%2Fmonth)%20and%20want%20to%20know%20more." target="_blank" rel="noopener">Get started</a>
+          <ul><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Everything in Starter</li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>WhatsApp automation + broadcasts</li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Order Management Dashboard</li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Sales Analytics</li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>AI Content Generator</li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Priority support</li></ul></div><div class="plan reveal">
+          <h3>All-in-One</h3><p class="plan-sub">For businesses that want their complete digital stack managed.</p>
+          <div class="plan-price"><span class="cur">₹</span>999<span class="per">/month</span></div>
+          <a class="btn btn-outline btn-block" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20am%20interested%20in%20the%20All-in-One%20plan%20(%E2%82%B9999%2Fmonth)%20and%20want%20to%20know%20more." target="_blank" rel="noopener">Get started</a>
+          <ul><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Everything in Growth</li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>E-commerce website builder</li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Inventory Management</li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>AI Product Recommendations</li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Dedicated account manager</li><li><svg class="ic tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Custom integrations</li></ul></div></div>
+        <p class="plans-note reveal">Need a single service or an industry package? See individual pricing in <a href="#services">Services</a>.</p>
+      </div>
     </section>
 
     <!-- TESTIMONIALS -->
-    <section class="section" style="padding-top:0">
-        <div class="section-header centered reveal">
-            <div class="section-label">Testimonials</div>
-            <h2 class="section-title">Businesses Already Growing</h2>
+    <section class="section alt" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Client stories</span>
+          <h2>Businesses already growing with Intellexa</h2>
         </div>
-        <div class="testimonials-grid reveal">
-            <div class="testi-card">
-                <div class="testi-stars">★★★★★</div>
-                <div class="testi-text">"The WhatsApp bot they built handles 80% of our customer queries automatically. Our team can finally focus on actual work instead of answering the same questions."</div>
-                <div class="testi-author">
-                    <div class="testi-avatar">RK</div>
-                    <div>
-                        <div class="testi-name">Rahul Kapoor</div>
-                        <div class="testi-role">Owner, Kapoor Textiles, Surat</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testi-card">
-                <div class="testi-stars">★★★★★</div>
-                <div class="testi-text">"Got our entire online store with UPI payments up in just 10 days. The order dashboard saves us hours every single day. Highly recommended!"</div>
-                <div class="testi-author">
-                    <div class="testi-avatar">PM</div>
-                    <div>
-                        <div class="testi-name">Priya Mehta</div>
-                        <div class="testi-role">Founder, FreshCart, Pune</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testi-card">
-                <div class="testi-stars">★★★★★</div>
-                <div class="testi-text">"Intellexa set up everything and stayed with us for 15 days until we were completely comfortable. The support was exceptional from start to finish."</div>
-                <div class="testi-author">
-                    <div class="testi-avatar">AS</div>
-                    <div>
-                        <div class="testi-name">Arjun Singh</div>
-                        <div class="testi-role">CEO, QuickMeds, Delhi</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="testis"><figure class="testi reveal"><div class="stars"><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg></div><blockquote>“The WhatsApp bot they built handles 80% of our customer queries automatically. Our team can finally focus on actual work instead of answering the same questions.”</blockquote><figcaption><span class="avatar">RK</span><span><strong>Rahul Kapoor</strong><small>Owner, Kapoor Textiles, Surat</small></span></figcaption></figure><figure class="testi reveal"><div class="stars"><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg></div><blockquote>“Got our entire online store with UPI payments up in just 10 days. The order dashboard saves us hours every single day. Highly recommended!”</blockquote><figcaption><span class="avatar">PM</span><span><strong>Priya Mehta</strong><small>Founder, FreshCart, Pune</small></span></figcaption></figure><figure class="testi reveal"><div class="stars"><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg><svg class="ic star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.52 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.79a.53.53 0 0 1 .3-.9l5.16-.76a2.12 2.12 0 0 0 1.6-1.16z"/></svg></div><blockquote>“Intellexa set up everything and stayed with us for 15 days until we were completely comfortable. The support was exceptional from start to finish.”</blockquote><figcaption><span class="avatar">AS</span><span><strong>Arjun Singh</strong><small>CEO, QuickMeds, Delhi</small></span></figcaption></figure></div>
+      </div>
     </section>
 
-    <!-- CONTACT CTA -->
-    <section class="cta-section" id="contact">
-        <div class="cta-card reveal">
-            <h2>Ready to Grow<br>With AI?</h2>
-            <p>Start with a free 7-day trial. No contracts, no setup fees, no risk. Just results.</p>
-            <div class="cta-btns">
-                <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20want%20to%20know%20more%20about%20your%20services" class="btn-primary" target="_blank">💬 WhatsApp Us Now</a>
-                <a href="mailto:intellexaai1@gmail.com" class="btn-secondary">✉️ Email Us</a>
-            </div>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <span>📱</span>
-                    <a href="tel:+919134800714">+91 9134800714</a>
-                </div>
-                <div class="contact-item">
-                    <span>✉️</span>
-                    <a href="mailto:intellexaai1@gmail.com">intellexaai1@gmail.com</a>
-                </div>
-            </div>
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container faq-grid">
+        <div class="section-head left reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2>Frequently asked questions</h2>
+          <p>Can't find your answer? <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20want%20to%20know%20more%20about%20your%20services" target="_blank" rel="noopener">Chat with us on WhatsApp</a> — we're happy to help.</p>
         </div>
+        <div class="faq-list"><details class="faq-item reveal"><summary>Is the 7-day free trial really free?<span class="faq-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></span></summary><p>Yes. No credit card, no hidden charges and no obligation. We set up the tools for your business and you only continue if you see value.</p></details><details class="faq-item reveal"><summary>How long does it take to go live?<span class="faq-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></span></summary><p>Most projects go live within 7–14 days, depending on the features you choose. Simple packages are often ready sooner.</p></details><details class="faq-item reveal"><summary>Do I need any technical knowledge?<span class="faq-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></span></summary><p>Not at all. We handle setup, configuration and training. You get a simple dashboard and a team you can reach on WhatsApp.</p></details><details class="faq-item reveal"><summary>What happens after launch?<span class="faq-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></span></summary><p>Every project includes 15 days of free hands-on support after launch, and maintenance and updates are included in all monthly plans.</p></details><details class="faq-item reveal"><summary>Can the solution be customised for my business?<span class="faq-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></span></summary><p>Yes. Every plan is tailored to your workflow, and the All-in-One plan includes custom integrations on request.</p></details><details class="faq-item reveal"><summary>Do you support Hindi and regional languages?<span class="faq-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></span></summary><p>Yes. Our AI chatbots understand Hindi and English, and we can add regional language support for your customers.</p></details><details class="faq-item reveal"><summary>Are there any long-term contracts?<span class="faq-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></span></summary><p>No. Plans are billed monthly with no contracts and no setup fees, so you can upgrade, downgrade or stop anytime.</p></details></div>
+      </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="footer-brand">
-            <a href="#" class="logo">intellexa<span>.ai</span></a>
-            <p class="footer-tagline">AI-powered software services for modern Indian businesses. Built to scale, priced to grow.</p>
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <span class="eyebrow light">Get in touch</span>
+          <h2>Ready to grow with AI?</h2>
+          <p>Tell us about your business and we'll recommend the right solution — free consultation, no obligation.</p>
+          <ul class="contact-list">
+            <li><span class="ci"><svg class="ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg></span><div><small>WhatsApp</small><a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20want%20to%20know%20more%20about%20your%20services" target="_blank" rel="noopener">Chat with our team</a></div></li>
+            <li><span class="ci"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><div><small>Call us</small><a href="tel:+919134800714">+91 9134800714</a></div></li>
+            <li><span class="ci"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></span><div><small>Email</small><a href="mailto:intellexaai1@gmail.com">intellexaai1@gmail.com</a></div></li>
+            <li><span class="ci"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span><div><small>Consultation</small><span>Free, with no obligation</span></div></li>
+          </ul>
         </div>
-        <div class="footer-links">
-            <a href="#services">Services</a>
-            <a href="#free-offer">Free Trial</a>
-            <a href="#why">Why Us</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#contact">Contact</a>
-        </div>
-        <div class="footer-contact">
-            <p>📱 <a href="tel:+919134800714">+91 9134800714</a></p>
-            <p>✉️ <a href="mailto:intellexaai1@gmail.com">intellexaai1@gmail.com</a></p>
-        </div>
-        <div class="footer-bottom">
-            <p>© 2026 Intellexa.online — All rights reserved.</p>
-            <p>Made with ❤️ for Indian businesses</p>
-        </div>
-    </footer>
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <h3>Request a free consultation</h3>
+          <div class="field-row">
+            <label>Your name<input name="name" type="text" placeholder="e.g. Rahul Sharma" required autocomplete="name"></label>
+            <label>Phone / WhatsApp<input name="phone" type="tel" placeholder="+91 98765 43210" required autocomplete="tel"></label>
+          </div>
+          <div class="field-row">
+            <label>Business name<input name="business" type="text" placeholder="e.g. Sharma Electronics" autocomplete="organization"></label>
+            <label>Interested in
+              <select name="service">
+                <option value="">Select a service</option>
+                <option>AI Customer Support Bot</option><option>WhatsApp Automation</option><option>AI Content Generator</option><option>AI Product Recommendations</option><option>Mini E-commerce Builder</option><option>Order Management Dashboard</option><option>Sales Analytics Dashboard</option><option>Inventory Management</option><option>All-in-One SaaS Platform</option><option>Clinic &amp; Doctor Package</option><option>Restaurant Digital Package</option><option>Beauty &amp; Salon Package</option><option>Gym &amp; Fitness Package</option><option>Coaching Institute Package</option><option>Fashion &amp; Garment Store</option><option>Influencer &amp; Creator Package</option><option>NGO &amp; Trust Package</option><option>Website + Hosting Package</option>
+                <option>Custom project</option>
+              </select>
+            </label>
+          </div>
+          <label>Message<textarea name="message" rows="4" placeholder="Tell us a little about your business and goals"></textarea></label>
+          <button class="btn btn-primary btn-lg btn-block" type="submit"><svg class="ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg> Send via WhatsApp</button>
+          <p class="form-note" id="formNote">Your details open in WhatsApp so you can review and send them directly to our team.</p>
+        </form>
+      </div>
+    </section>
+  </main>
 
-    <!-- WHATSAPP FLOAT -->
-    <a class="wa-float" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20want%20to%20know%20more%20about%20your%20services" target="_blank" title="Chat on WhatsApp">💬</a>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="logo"><span class="logo-mark">I</span><span class="logo-text">intellexa<span>.online</span></span></a>
+        <p>AI-powered software services for modern Indian businesses. Built to scale, priced to grow.</p>
+        <a href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20want%20to%20know%20more%20about%20your%20services" class="btn btn-wa btn-sm" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg> Chat on WhatsApp</a>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul><li><a href="#services" data-goto="ai">AI Customer Support Bot</a></li><li><a href="#services" data-goto="ai">WhatsApp Automation</a></li><li><a href="#services" data-goto="ai">AI Content Generator</a></li><li><a href="#services" data-goto="ai">AI Product Recommendations</a></li><li><a href="#services" data-goto="commerce">Mini E-commerce Builder</a></li><li><a href="#services" data-goto="commerce">Order Management Dashboard</a></li><li><a href="#services" data-goto="commerce">Sales Analytics Dashboard</a></li><li><a href="#services">View all services →</a></li></ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#why">Why Intellexa</a></li>
+          <li><a href="#process">How it works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#testimonials">Client stories</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer-contact">
+          <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+919134800714">+91 9134800714</a></li>
+          <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg><a href="mailto:intellexaai1@gmail.com">intellexaai1@gmail.com</a></li>
+          <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.99-5.54 10.19-7.4 11.8a1 1 0 0 1-1.2 0C9.54 20.19 4 14.99 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg><span>Serving businesses across India</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> Intellexa.online — All rights reserved.</p>
+      <p>Made with care for Indian businesses</p>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
+  <a class="wa-float" href="https://wa.me/919134800714?text=Hi%20Intellexa!%20I%20want%20to%20know%20more%20about%20your%20services" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg class="ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg><span>Chat with us</span></a>
+  <button class="to-top" id="toTop" type="button" aria-label="Back to top"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg></button>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
